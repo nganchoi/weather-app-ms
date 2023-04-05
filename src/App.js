@@ -2,6 +2,7 @@ import React from "react";
 import Weather from "./components/weather";
 import Form from "./components/Form";
 import Titles from "./components/titles";
+import AudioPlayer from "./components/AudioPlayer";
 import "./App.css";
 
 const Api_Key = "8d2de98e089f1c28e1a22fc19a24ef04";
@@ -55,6 +56,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="wrapper">
+        <AudioPlayer />
         <div className="main">
           <div className="container">
             <div className="row">
